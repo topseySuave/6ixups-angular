@@ -1,0 +1,56 @@
+@mixin pad($some-number)
+  padding: $some-number
+
+@mixin pad__top($val)
+  padding-top: $val
+
+@mixin pad__bottom($val)
+  padding-bottom: $val
+
+@mixin pad__left($val)
+  padding-left: $val
+
+@mixin pad__right($val)
+  padding-right: $val
+
+@mixin margin($val)
+  margin: $val
+
+@mixin transit($prop: all, $time: 300ms, $timingFunc: ease-in-out)
+  -webkit-transition: $prop $time $timingFunc
+  -moz-transition: $prop $time $timingFunc
+  -ms-transition: $prop $time $timingFunc
+  -o-transition: $prop $time $timingFunc
+  transition: $prop $time $timingFunc
+
+@mixin translateY($val)
+  -webkit-transform: translateY($val)
+  -moz-transform: translateY($val)
+  -ms-transform: translateY($val)
+  -o-transform: translateY($val)
+  transform: translateY($val)
+
+@mixin translateX($val)
+  -webkit-transform: translateX($val)
+  -moz-transform: translateX($val)
+  -ms-transform: translateX($val)
+  -o-transform: translateX($val)
+  transform: translateX($val)
+
+@mixin transScale($val)
+  -webkit-transform: scale($val)
+  -moz-transform: scale($val)
+  -ms-transform: scale($val)
+  -o-transform: scale($val)
+  transform: scale($val)
+
+@mixin border($val)
+  border: $val
+
+@mixin backGradientImageToBottom($colorStart, $colorEnd)
+  background-image: linear-gradient(to bottom, $colorStart, $colorEnd)
+  background-image: -webkit-linear-gradient(to bottom, $colorStart, $colorEnd)
+
+@mixin backGradientImageToTop($colorStart, $colorEnd)
+  background-image: linear-gradient(to top, $colorStart, $colorEnd)
+  background-image: -webkit-linear-gradient(to top, $colorStart, $colorEnd)

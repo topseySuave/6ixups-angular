@@ -1,26 +1,26 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {AppRoutingModuleModule} from './app-routing-module.module';
+// import {AppRoutingModuleModule} from './app-routing-module.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
-import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
-import { PostCardComponent } from './post-card/post-card.component';
-
+import { SixCategoryListComponent } from './navbar/six-category-list/six-category-list.component';
+import { SixCardContainerComponent } from './six-card-container/six-card-container.component';
+import { SixCardComponent } from './six-card-container/six-card/six-card.component';
+import { SixRightSidebarComponent } from './six-right-sidebar/six-right-sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    LeftSidebarComponent,
-    RightSidebarComponent,
-    PostCardComponent
+    SixCategoryListComponent,
+    SixCardContainerComponent,
+    SixCardComponent,
+    SixRightSidebarComponent,
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModuleModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

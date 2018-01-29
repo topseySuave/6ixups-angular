@@ -7,11 +7,14 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class NavbarComponent implements OnInit {
-  appName = "6ixups";
-
+  appName: string = "6ixups";
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+  showList(){
+
   }
 }

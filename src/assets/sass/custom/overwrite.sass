@@ -1,0 +1,91 @@
+
+nav
+  background-color: $navbar-default-bg
+
+.brand-logo
+  color: $default-6ix-color !important
+
+nav ul a
+  color: $default-6ix-color !important
+
+.navbar-fixed
+  position: fixed !important
+
+.col
+  position: relative
+
+.btn
+  font:
+    size: .7em !important
+
+  a
+    color: $default-6ix-text
+
+.card-image
+  position: relative !important
+    
+.card, .toast, .btn-large, .btn-floating, .dropdown-content
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.14) !important
+  @include margin(0.5rem 0 2rem 0 !important)
+  //box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+
+.card .card-image > .hidden__pro_info > a > img
+  width: 30px
+  height: 30px
+
+.card .card-image > a > img
+  display: block
+  position: relative
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  width: 100% !important
+
+.card-content, .card-action
+  position: relative
+  @include pad(10px 10px !important)
+
+.card-content
+  a
+    font:
+      size: large
+      weight: bold
+    color: $black !important
+
+    &:hover
+      opacity: .8
+
+.card-action
+  a.btn__feed_back
+    color: $black !important
+  a
+    color: $default-6ix-text
+
+.card.small
+  height: auto !important
+  .card-image
+    max-height: 100px !important
+
+    img
+      @include translateY(-25%)
+
+//.container
+//  position: relative
+//  top: 64px
+//  margin: 0 0 0 80px
+//  max-width: 1206px !important
+//  width: 90%
+
+
+//@media only screen and (min-width: 993px)
+//  .container
+//    width: 100%
+//
+//@media only screen and (min-width: 601px)
+//  .container
+//    width: 85%
+//
+//@media only screen and (max-width: 450px)
+//  .container
+    margin: 0
