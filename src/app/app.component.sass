@@ -1,5 +1,23 @@
 //// Variables
-@import "../assets/sass/app"
-//
-//// navbar component
-//@import "./navbar/navbar.component.sass"
+@import "../assets/sass/variables"
+@import "../assets/sass/mixins"
+@import "../assets/sass/custom/overwrite"
+
+.pad__10
+  padding-left: $pad10
+
+.pad__20
+  padding-left: $pad20
+
+.no-margin
+  @include margin(0 !important)
+
+.clear
+  clear: both
+
+.display__flex
+  display: inline-flex !important
+
+.main_container
+  @include pad__top(20px !important)
+  @include pad__bottom(20px !important)

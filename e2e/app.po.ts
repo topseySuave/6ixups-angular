@@ -1,11 +1,20 @@
-import { browser, by, element } from 'protractor';
+import {browser, by, element} from 'protractor';
 
 export class AppPage {
-  navigateTo() {
-    return browser.get('/');
-  }
+    navigateTo() {
+        return browser.get('/');
+    }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
-  }
+    getBrandText() {
+        return element(
+            by.css(
+                'app-root' +
+                ' app-navbar' +
+                ' nav.navbar-fixed.navbar' +
+                ' div.nav-wrapper' +
+                ' navbar-header.pad__20' +
+                ' a.brand-logo span'
+            )
+        ).getText();
+    }
 }
