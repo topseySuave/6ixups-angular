@@ -1,0 +1,16 @@
+<div class="rel_6ix_list">
+    <ul>
+        <li *ngFor="let item of sixList">
+            <a [routerLink]="['/6ix/' + item]">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/assets/images/user_images/{{item}}.jpg" alt="related 6ixs"/>
+                    </div>
+                    <div class="card-content">
+                        <p><a [routerLink]="['/6ix/' + item]">This is a link</a></p>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

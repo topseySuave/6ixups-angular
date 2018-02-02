@@ -1,0 +1,5 @@
+<ul class="hide-on-med-and-down cat_list">
+  <li *ngFor="let item of _list">
+    <a [routerLink]="['/6ix/'+ item.image_url]">{{item.name}}</a>
+  </li>
+</ul>
