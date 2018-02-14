@@ -1,0 +1,51 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/app.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/upvotes.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/session.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/controller/users.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/config.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/report.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/reply.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/users.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/post.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/utils.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/notification.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/comment.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/models/category.js" />
+        <item url="file://$PROJECT_DIR$/dist/sixupsServer/routes/api.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/main.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/model/users.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/inline.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/styles.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/polyfills.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/vendor.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/main.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/model/users.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/inline.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/styles.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/polyfills.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsAngular/dist/vendor.bundle.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/app.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/upvotes.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/session.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/controller/users.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/config.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/report.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/reply.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/users.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/post.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/utils.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/notification.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/comment.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/models/category.js" />
+      <root url="file://$PROJECT_DIR$/dist/sixupsServer/routes/api.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
